@@ -16,7 +16,7 @@ fn main() {
     let mut input = read_file_input().unwrap_or_default();
     let mut count = 0;
     // PART 1
-    // there is probably a better way of doing this that isn't O(n^2) but I can't be fussed to
+    // there is probably a better way of doing this that isn't O(n^2) but I can't be fucked to
     // figure it out
     for item in input.inventory {
         for r in &input.ranges {
